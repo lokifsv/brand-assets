@@ -1,0 +1,28 @@
+:root {
+  /* Colores de Identidad */
+  --color-primary: #2d69fc;         /* Azul Real - Confianza y Seriedad */
+  --color-secondary: #329cfc;       /* Azul Cielo - Agilidad y Velocidad */
+  --color-accent: #eaf1fc;          /* Azul Hielo - Fondos de Tarjetas y Tablas */
+
+  /* Colores de Estado (Estilo Google) */
+  --color-success: #0f9d58;         /* Verde - Activo / Pagado */
+  --color-warning: #f4b400;         /* Amarillo - Alerta / Pendiente */
+  --color-danger: #db4437;          /* Rojo - Caído / Expirado */
+  --color-info: #1a73e8;            /* Azul Informativo */
+
+  /* Neutros para Modo Claro */
+  --bg-light: #f8fafd;              /* Fondo General */
+  --bg-card-light: #ffffff;         /* Tarjetas */
+  --text-primary-light: #0f172a;    /* Texto Principal (Slate 900) */
+  --text-secondary-light: #475569;  /* Texto Secundario (Slate 600) */
+
+  /* Neutros para Modo Oscuro */
+  --bg-dark: #0f172a;               /* Fondo General (Slate 900) */
+  --bg-card-dark: #1e293b;          /* Tarjetas (Slate 800) */
+  --text-primary-dark: #f8fafc;     /* Texto Principal Claro */
+  --text-secondary-dark: #94a3b8;   /* Texto Secundario Claro */
+
+  /* Tipografía y Marca */
+  --brand-name: 'LOKIF';
+  --font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
