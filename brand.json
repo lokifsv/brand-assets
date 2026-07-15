@@ -1,0 +1,47 @@
+{
+  "brand_name": "LOKIF",
+  "legal_entities": {
+    "peru": {
+      "legal_name": "LOKIF S.A.C.",
+      "tax_id_ruc": "20610064881",
+      "address": "Av. Iquitos 1121, La Victoria, Lima 15033, Perú"
+    },
+    "usa_llc": {
+      "legal_name": "LOKIF LLC",
+      "tax_id_ein": "[PENDIENTE_EIN_IRS]",
+      "state_of_incorporation": "[PENDIENTE_STATE_US]",
+      "address": "[PENDIENTE_DIRECCION_US_FIRSTBASE]",
+      "billing_phone": "[PENDIENTE_TELEFONO_US]"
+    }
+  },
+  "system_urls": {
+    "main_website": "https://lokif.com",
+    "client_billing_portal": "https://cliente.lokif.com",
+    "terms_of_service": "https://lokif.com/terminos",
+    "privacy_policy": "https://lokif.com/privacidad",
+    "service_level_agreement_sla": "https://lokif.com/sla",
+    "status_page": "https://status.lokif.com"
+  },
+  "contact_channels": {
+    "support_email": "soporte@lokif.com",
+    "abuse_dmca_email": "abuse@lokif.com",
+    "whatsapp_url": "https://wa.me/17867558035",
+    "facebook_url": "https://facebook.com/LOKIFcom",
+    "telegram_url": "[PENDIENTE_TELEGRAM]",
+    "instagram_url": "[PENDIENTE_INSTAGRAM]",
+    "linkedin_url": "[PENDIENTE_LINKEDIN]",
+    "twitter_x_url": "[PENDIENTE_TWITTER]"
+  },
+  "colors": {
+    "primary": "#2d69fc",
+    "secondary": "#329cfc",
+    "success": "#0f9d58",
+    "warning": "#f4b400",
+    "danger": "#db4437",
+    "info": "#1a73e8",
+    "light_bg": "#eaf1fc",
+    "dark_bg": "#0f172a",
+    "text_light": "#0f172a",
+    "text_dark": "#f8fafc"
+  }
+}
