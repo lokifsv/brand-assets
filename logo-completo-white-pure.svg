@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="130" viewBox="-600 -50 4800 1349" fill-rule="evenodd" clip-rule="evenodd">
+  <defs>
+    <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="223" y1="904" x2="868" y2="200">
+      <stop offset="0" stop-color="#FFFFFF"/> <stop offset=".302" stop-color="#FFFFFF"/> <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+  </defs>
+  <g id="icon">
+    <circle cx="625" cy="625" r="670" fill="#808080" fill-opacity="0.15"/>
+    <ellipse transform="matrix(5.91001 3.22333 -5.64048 10.3419 939.274 500.38)" rx="25" ry="14" fill="#FFFFFF"/>
+    <path d="M382 1082h562c47-4 90-18 126-65 71-91 43-219-65-271-9-5-19-7-27-11-17 3-407 243-441 264-26 15-49 29-73 44-44 27-35 21-75 36l-7 3z" fill="#FFFFFF" fill-opacity="0.90"/>
+    <path d="M140 902c0 63 31 114 73 145l2 2c17 13 37 22 60 28 4 1 8 1 12 2 68 12 106-11 152-39 85-52 171-103 256-155 41-25 84-53 127-77 21-12 43-26 64-39 14-8 53-34 65-37l-15-5c-9-1-180-1-346-1 25-58 57-133 70-165l81-186c5-14 10-25 16-39l33-75c21-58 13-115-23-166C699-3 535-8 467 118l-27 60c-32 77-72 161-103 237l-77 178c-4 10-8 19-13 30l-64 148c-17 38-43 88-43 131z" fill="url(#a)"/>
+  </g>
+  <!-- Línea 1: LOKIF -->
+  <text x="1450" y="580" font-family="system-ui, -apple-system, sans-serif" font-size="600" font-weight="950" fill="#FFFFFF" letter-spacing="10">LOKIF</text>
+  <!-- Línea 2: Eslogan Parte 1 -->
+  <text x="1470" y="830" font-family="system-ui, -apple-system, sans-serif" font-size="155" font-weight="700" fill="#FFFFFF" letter-spacing="1">Looking for something?</text>
+  <!-- Línea 3: Los 4 Círculos de Marca -->
+  <circle cx="1540" cy="980" r="80" fill="#FFFFFF"/>
+  <circle cx="1780" cy="980" r="80" fill="#FFFFFF"/>
+  <circle cx="2020" cy="980" r="80" fill="#FFFFFF"/>
+  <circle cx="2260" cy="980" r="80" fill="#FFFFFF"/>
+  <!-- Línea 3: Eslogan Parte 2 (We got it!) -->
+  <text x="2480" y="1025" font-family="system-ui, -apple-system, sans-serif" font-size="155" font-weight="700" fill="#FFFFFF" letter-spacing="1">We got it!</text>
+</svg>
