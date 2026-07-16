@@ -26,3 +26,31 @@
   --brand-name: 'LOKIF';
   --font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }
+
+/* =========================================
+   FORZAR COLORES DINÁMICOS SOBRE CYBERPANEL
+   ========================================= */
+.bg-blue, .btn-primary, .btn-success, .btn-login {
+    background-color: var(--color-primary) !important;
+    border-color: var(--color-primary) !important;
+}
+.text-primary, h1[style*="#33CCCC"] {
+    color: var(--color-primary) !important;
+}
+body.login-bg {
+    background: linear-gradient(0deg, var(--color-primary) 0%, var(--bg-dark) 100%) !important;
+}
+
+/* =========================================
+   OCULTAR BASURA DE CYBERPANEL (White-Label)
+   ========================================= */
+a[href*="platform.cyberpersons.com"],
+a[href*="forums.cyberpanel.net"],
+a[href*="cyberpanel.net"],
+a[href*="youtube.com/@Cyber-Panel"],
+.build-services-banner,
+li:has(a[href*="connect"]),
+li:has(a[href*="community"]),
+li:has(a[href*="buildServices"]) {
+    display: none !important;
+}
