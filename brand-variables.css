@@ -1,4 +1,66 @@
+/* ============================================================
+   LOKIF BRANDING MAP - ANULAR LOS COLORES MORADOS DE CYBERPANEL
+   ============================================================ */
 :root {
+    /* Mapeo de la identidad de LOKIF a las variables nativas de CyberPanel (Tema Claro) */
+    --accent-color: #2d69fc !important;       /* Azul Real LOKIF */
+    --accent-hover: #1e55d3 !important;       /* Azul LOKIF Oscuro para Hover */
+    --focus-ring: #2d69fc !important;
+    --table-head-bg: #2d69fc !important;
+    --table-head-text: #ffffff !important;
+    --primary-color: #2d69fc !important;
+    --primary-hover: #1e55d3 !important;
+    --text-accent: #2d69fc !important;
+    --accent-primary: #2d69fc !important;
+    --accent-bg: #eaf1fc !important;          /* Fondo azul suave para avisos */
+    --accent-light: #eaf1fc !important;
+    
+    /* Variables de marca nativas de tu configuración */
+    --color-primary: #2d69fc;
+    --color-secondary: #329cfc;
+    --color-accent: #eaf1fc;
+    --bg-dark: #0f172a;
+}
+
+[data-theme="dark"] {
+    /* Mapeo de la identidad de LOKIF a las variables nativas de CyberPanel (Tema Oscuro) */
+    --accent-color: #329cfc !important;       /* Azul Cielo LOKIF para modo oscuro */
+    --accent-hover: #2183e0 !important;
+    --focus-ring: #329cfc !important;
+    --table-head-bg: #2d69fc !important;
+    --primary-color: #329cfc !important;
+    --primary-hover: #2183e0 !important;
+    --text-accent: #329cfc !important;
+    --accent-primary: #329cfc !important;
+}
+
+/* ============================================================
+   SOBRESCRIBIR DEGRADADOS MORADOS POR LOS AZULES DE LOKIF
+   ============================================================ */
+.cp-build-card, 
+.cp-bs-hero, 
+#sidebar .menu-item.menu-item-promo,
+.htaccess-feature-banner {
+    background: linear-gradient(135deg, #2d69fc 0%, #329cfc 100%) !important;
+    box-shadow: 0 4px 14px rgba(45, 105, 252, 0.25) !important;
+}
+
+/* Sobrescribir el degradado celeste original de CyberPanel por el de LOKIF en el Login */
+.col-login-left {
+    background: linear-gradient(135deg, #2d69fc 0%, #0f172a 100%) !important;
+}
+
+/* Forzar los botones de inicio de sesión */
+button.btn.btn-login {
+    background-color: var(--color-primary) !important;
+    border-color: var(--color-primary) !important;
+}
+button.btn.btn-login:hover {
+    background-color: var(--color-secondary) !important;
+    border-color: var(--color-secondary) !important;
+}
+
+
   /* Colores de Identidad */
   --color-primary: #2d69fc;         /* Azul Real - Confianza y Seriedad */
   --color-secondary: #329cfc;       /* Azul Cielo - Agilidad y Velocidad */
