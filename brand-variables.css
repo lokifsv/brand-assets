@@ -145,3 +145,36 @@ a[href*="cyberpanel-htaccess-module"] {
 .login-changelogs {
     display: none !important;
 }
+/* ============================================================
+   AJUSTES FINOS DE BORDES REDONDEADOS Y TIPOGRAFÍA (LOGIN)
+   ============================================================ */
+/* Forzar la tipografía Inter en los textos principales */
+body, h1, h2, h3, h4, h5, h6, select, input, button {
+    font-family: 'Inter', -apple-system, sans-serif !important;
+}
+
+/* Campos de entrada del login */
+.form-group .input-group input.form-control {
+    border-radius: 8px 0 0 8px !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+/* El selector de idioma */
+.form-group .input-group select.form-control {
+    border-radius: 8px !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+/* El fondo del icono (llave/sobre) adjunto al input */
+.form-group .input-group-addon {
+    border-radius: 0 8px 8px 0 !important;
+    background-color: var(--color-primary) !important;
+    border: none !important;
+    color: white !important;
+}
+
+/* El botón de Ingresar */
+button.btn.btn-login {
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+}
