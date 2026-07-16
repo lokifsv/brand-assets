@@ -43,5 +43,13 @@
     "dark_bg": "#0f172a",
     "text_light": "#0f172a",
     "text_dark": "#f8fafc"
+  },
+  "text_replacements": {
+    "Dashboard - CyberPanel": "Dashboard - LOKIF panel",
+    "Web Hosting Panel": "Hosting de Alto Rendimiento",
+    "— fully integrated with CyberPanel.": "— fully integrated with LOKIF.",
+    "CyberPanel offers": "LOKIF offers",
+    "Welcome back, Cyber Panel": "Welcome back, LOKIF",
+    "Get started with CyberPanel": "Get started with LOKIF"
   }
 }
