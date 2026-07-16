@@ -178,3 +178,20 @@ button.btn.btn-login {
     border-radius: 8px !important;
     font-weight: 600 !important;
 }
+
+/* ============================================================
+   BLOQUEAR CAMBIO DE IDIOMA (FORZAR ENGLISH SIEMPRE)
+   ============================================================ */
+/* 1. Ocultar el selector de idioma en la página de Login (afuera) */
+select[ng-model="languageSelection"], 
+.form-group:has(select[ng-model="languageSelection"]) {
+    display: none !important;
+}
+
+/* 2. Ocultar el selector de idioma en la edición de perfiles y usuarios (adentro) */
+select#language, 
+select[name="language"], 
+.form-group:has(select#language), 
+.form-group:has(select[name="language"]) {
+    display: none !important;
+}
