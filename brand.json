@@ -47,9 +47,10 @@
   "text_replacements": {
     "Dashboard - CyberPanel": "Dashboard - LOKIF panel",
     "Web Hosting Panel": "Hosting de Alto Rendimiento",
-    "— fully integrated with CyberPanel.": "— fully integrated with LOKIF.",
+    "fully integrated with CyberPanel": "fully integrated with LOKIF",
     "CyberPanel offers": "LOKIF offers",
     "Welcome back, Cyber Panel": "Welcome back, LOKIF",
+    "WELCOME BACK, CYBER PANEL": "WELCOME BACK, LOKIF",
     "Get started with CyberPanel": "Get started with LOKIF"
   }
 }
