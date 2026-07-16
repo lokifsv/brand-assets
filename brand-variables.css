@@ -27,17 +27,16 @@
   --font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
-/* =========================================
+/* ==========================================
    FORZAR COLORES DINÁMICOS SOBRE CYBERPANEL
-   ========================================= */
+   ========================================== */
 .bg-blue, .btn-primary, .btn-success, .btn-login {
     background-color: var(--color-primary) !important;
     border-color: var(--color-primary) !important;
 }
-.text-primary, h1[style*="#33CCCC"] {
-    color: var(--color-primary) !important;
-}
-body.login-bg {
+
+/* Sobrescribir el degradado celeste de CyberPanel por el degradado oscuro de LOKIF */
+.col-login-left {
     background: linear-gradient(0deg, var(--color-primary) 0%, var(--bg-dark) 100%) !important;
 }
 
@@ -52,5 +51,35 @@ a[href*="youtube.com/@Cyber-Panel"],
 li:has(a[href*="connect"]),
 li:has(a[href*="community"]),
 li:has(a[href*="buildServices"]) {
+    display: none !important;
+}
+/* ==========================================
+   OCULTAR BASURA DE CYBERPANEL (White-Label)
+   ========================================== */
+
+/* Ocultar elementos de venta y enlaces externos en el Sidebar */
+a.menu-item-promo, 
+a[href*="platform.cyberpersons.com"], 
+a[href*="cyberpanel.net/KnowledgeBase"] {
+    display: none !important;
+}
+
+/* Ocultar el Banner gigante de Venta de Servicios del Dashboard */
+.build-services-banner, 
+div:has(> .build-services-banner), 
+div:has(> a[href*="custom-development"]) {
+    display: none !important;
+}
+
+/* Ocultar las notificaciones push de venta en la campana de navegación */
+.cp-notif-body, 
+.cp-notif-desc, 
+a[href*="email-delivery-service"], 
+a[href*="cyberpanel-htaccess-module"] {
+    display: none !important;
+}
+
+/* Ocultar el link de Changelogs en la página de Login */
+.login-changelogs {
     display: none !important;
 }
